@@ -1,0 +1,24 @@
+1. Hoeveel leerlingen deden mee?
+submissions_week3 = 41
+submissions_week4 = 33
+
+2. Hoeveel leelringen gaven antwoord op de vragen?
+query3.2 = 41
+query3.3 = 41
+query3.4 = 40
+query3.5 = 1
+
+query4.3 = 32
+query4.4 = 29
+query4.5 = 30
+query4.6 = 3
+query4.7 = 2
+
+3. De vragen die bij de quries horen zijn als volgt:
+query3_2: Select all distinct combinations of names and ids of customers who have both a shoppinglist and a purchase, both for the same date in 2018.
+query3_3: Select all different names and ids of the customers who never made a purchase at a store with the name ‘Kumar’. Also include the customers who never made a purchase, but are still represented in the customer relation of our database.
+query3_4: Select all different names and ids of customers who made at least one purchase at a store with the name ‘Kumar’ and never a purchase at a store with a different name than ‘Kumar’.
+query4_3: Write a SQL query for the following RA query: ΠsName,city(store) ÷ (Πcity(customer) S Πcity(store))
+query4_4: List the names of all of those customers, and only of those customers, that spent an amount of money on any one date that is at least 75% of the maximal amount of money ever spent by a single customer on a single day.
+query4_5: Per city, how many customers living in the city have made at least one purchase from a store in London?
+

@@ -1,0 +1,8 @@
+Stap 1:
+Naar 'Source control'
+
+Stap 2:
+Changes klik je op +
+
+Stap 3:
+Message + ComMit
