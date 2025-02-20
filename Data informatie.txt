@@ -22,3 +22,35 @@ query4_3: Write a SQL query for the following RA query: ΠsName,city(store) ÷ (
 query4_4: List the names of all of those customers, and only of those customers, that spent an amount of money on any one date that is at least 75% of the maximal amount of money ever spent by a single customer on a single day.
 query4_5: Per city, how many customers living in the city have made at least one purchase from a store in London?
 
+4. Welke studie volgen de studenten en welk onderwijs volgen ze?
+De studenten zijn universitaire studenten Informatica in hun tweede jaar (eerste database vak)
+
+5.De volgende vragen vallen zullen niet mee worden genomen in de data.
+3_5, 4_6 en 4_7.
+Deze vragen zijn geen onderdeel van het huiswerk, maar nummers die studenten zelf als variabele hebben aangemaakt. 
+Er zijn hier dus geen correcte antwoorden of vragen voor, het zijn waarschijnlijk probeersels van deze student(en).
+- Deze opgaves heb ik uit de data gehaald.
+
+6. Data cleaning en datasets
+- obv van alle quries gegroepeerd en de min en max data gepakt. Het verschil heir van geeft aan hoelang een leelring over de opdracht heeft gedaan
+Dit doe ik in een losse code waar ik de submissions week heb,de opdracht , de student en het tijdstip.
+- De data die is meegekregen van de leerlingen is raw data. Deze data bevat de de queries die de leelringen hebben geschreven en voor welke opdracht. Daarbij is de output van deze queries te zien en het tijdstip waarop de query is gedraaid.
+Deze quries moest ik dus op een slimme wijs uit de data lijsten halen. 
+- Vervolgens moest ik kijken naar de type errors die uit ontstaan. Hiervoor heb ik een ingebouwde sqlite functie gebruikt
+De leerlingen hebben de opdrachten namelijk in sqllite gemaakt. 
+Een aantal errord konden niet gekopeld worden en moest ik zelf handmatig koppelen.
+-Om de feature engineering part zo goed mogelijk uit te voeren, was het voor mijk belangrijk om de data goed duidelijk wn inzichtelijk te hebben. Daarom heb ik 1 grote tabel gecreerd die de verschillenden aspecten van de quries in de kolommen weergeeft zoals
+hoeveel tabellen er gebruikt zijn, de combinatie gebruik van group by en having, hoeveel haakjes er zijn gebruikt etc. 
+- De rest is te vinden in mijn code 
+
+
+
+In mijn thesis design het volgende 
+voor de 2 verschillende submissions:
+articipant count 
+Total interactions 
+Total executed 
+Count correct executed 
+Count incorrect executed 
+
+TABLE IV: Statistics on query execution by our participants.
